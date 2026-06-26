@@ -1,0 +1,11 @@
+menu=''' a
+b
+c
+d'''
+enter=input("enter the word")
+enter.upper()
+while(enter!='EXIT'):
+    print(menu)
+    if (enter=='EXIT'):
+        break
+
