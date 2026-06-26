@@ -1,0 +1,5 @@
+speed=int(input("enter the speed"))
+if(speed>45):
+    print("speed out of limit")
+else:
+    print("speed in limit")

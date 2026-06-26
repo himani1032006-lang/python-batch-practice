@@ -1,0 +1,10 @@
+username=input("enter the username")
+password=int (input("enter the pass"))
+
+user=input("enter the username")
+pas=int (input("enter the pass"))
+
+if(username==user and password==pas):
+    print("Valid")
+else:
+    print("Not valid")

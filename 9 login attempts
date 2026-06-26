@@ -1,0 +1,14 @@
+count =1
+passs=1234
+pas=int(input("enter the pas"))
+while(count<=3):
+    if(pas==passs):
+        count=count+1
+        print("correct")
+        break
+    else:
+        print("incorrect")
+        break
+
+
+    print("incorrect")

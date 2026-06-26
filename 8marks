@@ -1,0 +1,13 @@
+m1=int(input("enter the marks of subject 1"))
+m2=int(input("enter the marks of subject 2"))
+m3=int(input("enter the marks of subject 3"))
+m4=int(input("enter the marks of subject 4"))
+m5=int(input("enter the marks of subject 5"))
+avg=(m1+m2+m3+m4+m5)/500
+if(avg>75):
+    print("A")
+elif(avg>65 and avg<=75):
+    print("B")
+else:
+    print("C")
+

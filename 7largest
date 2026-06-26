@@ -1,0 +1,9 @@
+sales_figures1=int(input("enter the sales figures"))
+sales_figures2=int(input("enter the sales figures"))
+sales_figures3=int(input("enter the sales figures"))
+if(sales_figures1>sales_figures2 and sales_figures1>sales_figures3):
+    print("sales_figures1")
+elif(sales_figures2>sales_figures1 and sales_figures2>sales_figures3):
+    print("sales_figures2")
+else:
+    print("sales_figures3")

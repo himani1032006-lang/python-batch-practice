@@ -1,0 +1,5 @@
+principle=int(input("enter the principle value"))
+rate=float(input("enter the rate"))
+time=int(input("enter the time "))
+si=(principle*rate*time)/100
+print(si)
