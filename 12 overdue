@@ -1,0 +1,6 @@
+books=[1,0,0,1,1,1]
+count=0
+for i in books:
+    if i==1:
+        count=count+1
+print("overdue books are",count)    
