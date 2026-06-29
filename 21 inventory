@@ -1,0 +1,6 @@
+list=["a","b","c","d"]
+search=input("enter the book need to be searched")
+if search in list:
+    print("found")
+else:
+    print("not found")
