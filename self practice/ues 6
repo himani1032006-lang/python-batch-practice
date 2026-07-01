@@ -1,0 +1,5 @@
+lst=[]
+for i in range(0,7):
+    li=input(f"enter the fruit {i}")
+    lst.append(li)
+print(lst)

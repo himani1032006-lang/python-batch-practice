@@ -1,0 +1,2 @@
+letter="Dear Hrry!\n\tThis is to inform you that today is sunny.\nThanks!"
+print(letter)

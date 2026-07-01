@@ -1,0 +1,6 @@
+dict={}
+for i in range(0,5):
+    n=input("enter the value ")
+    num=int(input("enter the num "))
+    dict.update({n:num})
+print(dict)

@@ -1,0 +1,5 @@
+se=set()
+for i in range(0,5):
+    num=int(input("enter the number"))
+    se.add(int (num))
+print(se)
