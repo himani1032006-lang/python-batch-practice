@@ -1,0 +1,4 @@
+l=["aman","rahul","aryan"]
+for i in l:
+    l.sort()
+print(l)
