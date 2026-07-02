@@ -1,0 +1,8 @@
+def rem(l,word):
+    n=[]
+    for i in l:
+        if (i!=word):
+            n.append(i.strip(word))
+    return n
+l=["rohan","aryan","shashank"]
+print(rem(l,"an"))
