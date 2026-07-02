@@ -1,0 +1,5 @@
+word=input("enter the sentence")
+s=word.split()
+for i in word:
+    for i in s(len(s)-1,-1,-1):
+        print(word)
